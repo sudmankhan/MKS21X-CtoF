@@ -12,7 +12,7 @@ public class CtoFTester {
 	public static void main(String[] args) {
 		double x = 75;
 		double y = 77;
-		System.out.println("75 C is " + celsiusToFahrenheit(x));
-		System.out.println("30 F is " + fahrenheitToCelsius(y));
+		System.out.println("75 C is " + celsiusToFahrenheit(x) + " F");
+		System.out.println("30 F is " + fahrenheitToCelsius(y) + " C");
 }
 }
