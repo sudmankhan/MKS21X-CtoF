@@ -3,14 +3,16 @@
 
 public class CtoFTester {
 
-	public static double celsiusToFahrenheit() {
-		return 1.0;
+	public static double celsiusToFahrenheit(double x) {
+		return (x * (9/5)) + 32;
 }
-	public static double fahrenheitToCelsius() {
-		return 1.0;
+	public static double fahrenheitToCelsius(double y) {
+		return (y - 32.0) * (5/9);
 }
 	public static void main(String[] args) {
-		celsiusToFahrenheit();
-		fahrenheitToCelsius();
+		double x = 75;
+		double y = 30;
+		celsiusToFahrenheit(x);
+		fahrenheitToCelsius(y);
 }
 }
